@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230613 15:00:49.171" rpa="false" schemaversion="3">
+<suite id="s1" name="Test Variables" source="C:\Users\Xynarth\Desktop\troisiemeRobot\TestCases\test_variables.robot">
+<test id="s1-t1" name="tc01" line="18">
+<kw name="Log" library="BuiltIn">
+<arg>${valeur1}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230613 15:00:49.192" level="INFO">2</msg>
+<status status="PASS" starttime="20230613 15:00:49.192" endtime="20230613 15:00:49.192"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${valeur2}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230613 15:00:49.193" level="INFO">4</msg>
+<status status="PASS" starttime="20230613 15:00:49.192" endtime="20230613 15:00:49.193"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${valeur3}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230613 15:00:49.193" level="INFO">4.5</msg>
+<status status="PASS" starttime="20230613 15:00:49.193" endtime="20230613 15:00:49.193"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${navigateur}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230613 15:00:49.193" level="INFO">gc</msg>
+<status status="PASS" starttime="20230613 15:00:49.193" endtime="20230613 15:00:49.193"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${url}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230613 15:00:49.194" level="INFO">https://www.google.com</msg>
+<status status="PASS" starttime="20230613 15:00:49.194" endtime="20230613 15:00:49.194"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${valeur1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230613 15:00:49.194" endtime="20230613 15:00:49.195"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${valeur2}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230613 15:00:49.195" endtime="20230613 15:00:49.195"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${navigateur}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230613 15:00:49.196" endtime="20230613 15:00:49.196"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${url}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230613 15:00:49.197" endtime="20230613 15:00:49.197"/>
+</kw>
+<status status="PASS" starttime="20230613 15:00:49.191" endtime="20230613 15:00:49.197"/>
+</test>
+<status status="PASS" starttime="20230613 15:00:49.173" endtime="20230613 15:00:49.198"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test Variables">Test Variables</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

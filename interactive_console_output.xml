@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230613 14:33:06.836" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Xynarth\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<if>
+<branch type="IF" condition="${nombre1} != ${nombre2}">
+<kw name="Log To Console" library="BuiltIn">
+<arg>condition : passee</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230613 14:33:07.526" endtime="20230613 14:33:07.526"/>
+</kw>
+<msg timestamp="20230613 14:33:07.526" level="FAIL">Evaluating IF condition failed: Variable '${nombre1}' not found.</msg>
+<status status="FAIL" starttime="20230613 14:33:07.525" endtime="20230613 14:33:07.526"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>condition : echec</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230613 14:33:07.526" endtime="20230613 14:33:07.526"/>
+</kw>
+<status status="NOT RUN" starttime="20230613 14:33:07.526" endtime="20230613 14:33:07.526"/>
+</branch>
+<status status="FAIL" starttime="20230613 14:33:07.525" endtime="20230613 14:33:07.526"/>
+</if>
+<status status="PASS" starttime="20230613 14:33:06.855" endtime="20230613 14:33:09.627"/>
+</kw>
+<status status="PASS" starttime="20230613 14:33:06.854" endtime="20230613 14:33:09.627"/>
+</test>
+<status status="PASS" starttime="20230613 14:33:06.838" endtime="20230613 14:33:09.628"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
